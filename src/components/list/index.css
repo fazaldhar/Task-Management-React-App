@@ -1,0 +1,33 @@
+
+.list-wrapper {
+    width: 17%;
+    height: 100%;
+    float: left;
+    border: 2px solid #ccc;
+    margin-right: 5px;
+    border-radius: 7px;
+    padding: 5px;
+    overflow: auto;
+    background-color: #cfe2c4;
+}
+.list {
+    max-height: 100%;
+}
+
+.list .list-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.list .list-header h5 {
+	margin-bottom: 0;
+    margin-top: 7px;
+    text-transform: capitalize;
+}
+.list-content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+}

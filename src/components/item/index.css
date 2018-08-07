@@ -1,0 +1,16 @@
+.list .item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #fff8f8;
+}
+.list .item h6 {
+	text-transform: capitalize;
+}
+
+.list .item .close {
+	margin-top: -11px;
+    margin-right: -6px;
+}

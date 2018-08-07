@@ -1,0 +1,5 @@
+/*reset css*/
+@import '../../node_modules/reset-css/reset';
+@import './common';
+@import '../components/list/index.css';
+@import '../components/item/index.css';
