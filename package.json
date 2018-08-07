@@ -1,0 +1,43 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "A react app for task management",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazaldhar/Task-Management-React-App.git"
+  },
+  "author": "Fazaldhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fazaldhar/Task-Management-React-App/issues"
+  },
+  "homepage": "https://github.com/fazaldhar/Task-Management-React-App#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "popper": "^1.0.1",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "react-modal": "^3.5.1",
+    "reset-css": "^4.0.1"
+  }
+}
