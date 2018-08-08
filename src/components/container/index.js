@@ -58,7 +58,8 @@ class Container extends Component {
 		this._listInputRef.focus();
 	}
 
-	_addListClick() {
+	_addListClick(e) {
+		e.preventDefault();
 		let newListName = this._listInputRef.value;
 		if(newListName == "")
 			return;

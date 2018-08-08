@@ -8,18 +8,20 @@ class AddList extends Component {
 		this._handleClick = this._handleClick.bind(this);
 	}
 
-	_handleClick() {
-		this.props.addListClick();
+	_handleClick(e) {
+		this.props.addListClick(e);
 	}
 
 	render() {
 		return (
-		<div className="input-group mb-3">
-			<input type="text" ref={(el) => this.props.addListInputRef(el)} className="form-control" placeholder="Add New List" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-			<div className="input-group-append">
-				<button className="btn btn-outline-secondary" type="button" onClick={this._handleClick}>Add List</button>
+		<form>
+			<div className="input-group mb-3">
+				<input type="text" ref={(el) => this.props.addListInputRef(el)} className="form-control" placeholder="Add New List" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+				<div className="input-group-append">
+					<button className="btn btn-outline-secondary" type="submit" onClick={this._handleClick}>Add List</button>
+				</div>
 			</div>
-		</div>
+		</form>
 		);
 	}
 };

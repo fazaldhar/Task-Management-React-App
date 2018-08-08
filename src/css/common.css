@@ -2,3 +2,7 @@ body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #b3efa8 !important;
 }
+
+.close-button {
+	margin-left: 20px;
+}

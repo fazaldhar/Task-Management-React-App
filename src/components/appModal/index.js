@@ -53,7 +53,7 @@ class AppModal extends Component {
 						<input type="input" ref={(el) => itemDescRef(el)} className="form-control" id="exampleInputPassword1" placeholder="Description" defaultValue={itemDesc}/>
 					</div>
 					<button type="submit" className="btn btn-primary" onClick={this._addEditItem}>{buttonName}</button>
-					<button type="button" className="btn btn-secondary" onClick={this._closeModal}>Close</button>
+					<button type="button" className="btn btn-secondary close-button" onClick={this._closeModal}>Close</button>
 				</form>
 			</Modal>
 		);
