@@ -15,8 +15,8 @@ class Container extends Component {
 				title: "Progress",
 				items: [
 					{
-						title: 'Progress task 1',
-						description: "description description"
+						title: 'task 1',
+						description: "in progress"
 					}
 				]
 			},
@@ -24,12 +24,12 @@ class Container extends Component {
 				title: 'On Hold',
 				items: [
 					{
-						title: 'On Hold task 1',
-						description: "description description"
+						title: 'task 2',
+						description: "hold"
 					},
 					{
-						title: 'On Hold task 2',
-						description: "description description"
+						title: 'task 3',
+						description: "hold"
 					}
 				]
 			}
